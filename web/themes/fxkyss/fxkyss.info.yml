@@ -1,0 +1,49 @@
+name: fxkyss
+type: theme
+base theme: bartik
+core_version_requirement: ^8 | ^9
+version: VERSION
+libraries:
+  - fxkyss/global-css
+  - fxkyss/global-js
+#libraries-override:
+#  core/drupal: false
+#  core/backbone: false
+#  core/drupalSettings: false
+#  core/drupal.active-link: false
+#  core/drupal.ajax: false
+#  core/drupal.announce: false
+#  core/drupal.form: false
+#  core/drupal.debounce: false
+#  node/drupal.node.preview: false
+#  core/underscore: false
+#  core/domready: false
+#  core/drupal.batch: false
+#  core/jquery: bs3/jquery1
+#  core/jquery.once: false
+#  core/jquery.joyride: false
+#  core/jquery.cookie: false
+#  toolbar/toolbar: false
+#  toolbar/toolbar.escapeAdmin: false
+#  tour/tour: false
+#  history/mark-as-read: false
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  highlighted: Highlighted
+  featured_top: 'Featured top'
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  featured_bottom_first: 'Featured bottom first'
+  featured_bottom_second: 'Featured bottom second'
+  featured_bottom_third: 'Featured bottom third'
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'

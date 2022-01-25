@@ -1,0 +1,82 @@
+body {
+  background: none;
+}
+body #page-wrapper {
+  margin-top: 1.5rem;
+}
+
+.region.region-primary-menu {
+  background-color: #1a58ab;
+}
+.region.region-primary-menu ul.menu li a {
+  background: none;
+  color: #FFFFFF;
+  text-shadow: none;
+}
+@media (min-width: 901px) {
+  .region.region-primary-menu ul.menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1290px;
+    margin: auto;
+    height: 75px;
+  }
+  .region.region-primary-menu ul.menu li {
+    flex: 1 0 0%;
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid #3469b4;
+  }
+  .region.region-primary-menu ul.menu li:nth-child(1) {
+    border-left: 1px solid #3469b4;
+  }
+  .region.region-primary-menu ul.menu li a {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+}
+
+header#header > div {
+  max-width: 100%;
+}
+header#header > div .region-secondary-menu,
+header#header > div .region-header {
+  max-width: 1290px;
+  margin: auto;
+}
+header#header > div .region-secondary-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+header#header > div .region-header {
+  display: flex;
+}
+header#header > div .region-header #block-fxkyss-branding {
+  flex: 0 0 auto;
+  margin-right: auto;
+}
+header#header > div .region-header #block-fxkyss-branding .site-branding__text .site-branding__name a {
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+header#header > div .region-header #block-fxkyss-branding .site-branding__text .site-branding__slogan {
+  color: #000000;
+}
+header#header > div .region-header #block-fxkyss-saomaguanzhu-2 img {
+  width: 80px;
+  margin-right: 2rem;
+}
+header#header > div .region-header #block-fxkyss-zixundianhua h2 {
+  position: unset !important;
+  height: unset;
+  color: #000000;
+}
+header#header > div .region-header #block-fxkyss-zixundianhua .content > div p {
+  font-size: 1.5rem;
+  color: #1a58ab;
+}
+
+/*# sourceMappingURL=main.css.map */

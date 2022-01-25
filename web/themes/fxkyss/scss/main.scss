@@ -1,0 +1,97 @@
+body{
+  background: none;
+  #page-wrapper{
+    margin-top: 1.5rem;
+  }
+}
+.region.region-primary-menu{
+  background-color: #1a58ab;
+  ul.menu{
+    li{
+      a{
+        background: none;
+        color: #FFFFFF;
+        text-shadow: none;
+      }
+    }
+  }
+  @media (min-width: 901px){
+    ul.menu{
+      display: flex;
+      justify-content: space-between;
+      max-width: 1290px;
+      margin: auto;
+      height: 75px;
+      li{
+        flex: 1 0 0%;
+        display: flex;
+        justify-content: center;
+        border-right: 1px solid #3469b4;
+        &:nth-child(1){
+          border-left: 1px solid #3469b4;
+        }
+        a{
+          display: flex;
+          align-items: center;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+header#header{
+  >div{
+    max-width: 100%;
+    .region-secondary-menu,
+    .region-header{
+      max-width: 1290px;
+      margin: auto;
+    }
+    .region-secondary-menu{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+    .region-header{
+      display: flex;
+      #block-fxkyss-branding{
+        flex: 0 0 auto;
+        margin-right: auto;
+        .site-branding__text{
+          .site-branding__name{
+            a{
+              color: #000000;
+              font-size: 1.8rem;
+              font-weight: bold;
+            }
+          }
+          .site-branding__slogan{
+            color: #000000;
+          }
+        }
+      }
+      #block-fxkyss-saomaguanzhu-2{
+        img{
+          width: 80px;
+          margin-right: 2rem;
+        }
+      }
+      #block-fxkyss-zixundianhua{
+        h2{
+          position: unset !important;
+          height: unset;
+          color: #000000;
+        }
+        .content{
+          >div{
+            p{
+              font-size: 1.5rem;
+              color: #1a58ab;
+            }
+          }
+        }
+      }
+    }
+  }
+}
