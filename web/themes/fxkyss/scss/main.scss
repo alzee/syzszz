@@ -55,6 +55,7 @@ header#header{
     }
     .region-header{
       display: flex;
+      color: #000000;
       #block-fxkyss-branding{
         flex: 0 0 auto;
         margin-right: auto;
@@ -72,10 +73,18 @@ header#header{
         }
       }
       #block-fxkyss-saomaguanzhu-2{
-        img{
-          width: 80px;
-          margin-right: 2rem;
+        .content{
+          >div{
+            display: flex;
+            img{
+              width: 80px;
+              margin-right: 2rem;
+            }
+          }
         }
+      }
+      #icon-phone{
+        padding: 1.7rem .5rem 0 0;
       }
       #block-fxkyss-zixundianhua{
         h2{
@@ -90,6 +99,42 @@ header#header{
               color: #1a58ab;
             }
           }
+        }
+      }
+    }
+  }
+}
+
+.site-footer__bottom{
+  position: relative;
+  margin-top: 1rem;
+  border-top: none;
+  font-size: 1rem;
+  .menu-item a{
+    border-bottom: none;
+    padding: 0 2rem;
+  }
+  #block-fxkyss-youqinglianjie{
+    border-bottom: 1px solid #555;
+    padding-bottom: 1rem;
+  }
+  #block-fxkyss-footer{
+    margin: 1rem 0 2rem 0;
+  }
+  #block-fxkyss-saomaguanzhu{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    .content{
+      >div{
+        display: flex;
+        p::after{
+          content: "扫描关注官方微信";
+          display: inline-block;
+          width: 1.2rem;
+          padding: 0 .7rem;
+          font-size: .6rem;
+          line-height: .8rem;
         }
       }
     }
