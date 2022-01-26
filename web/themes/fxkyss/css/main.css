@@ -11146,7 +11146,7 @@ body #page-wrapper .featured-top > aside #block-views-block-slides-block-1 .cont
     max-width: 100%;
   }
   body #page-wrapper #main-wrapper #main {
-    margin-top: 0;
+    margin: 0;
   }
   body #page-wrapper #main-wrapper #main #content > section {
     padding: 0;
@@ -11289,9 +11289,14 @@ body #page-wrapper .featured-top > aside #block-views-block-slides-block-1 .cont
     padding: 2rem 0;
     background: url("../img/bg3.jpg");
   }
-  body #page-wrapper #main-wrapper #main #content > section #contactus #block-lianxiwomen {
+  body #page-wrapper #main-wrapper #main #content > section #contactus .row {
     max-width: 1290px;
     margin: auto;
+    padding: 2rem 0;
+    height: 400px;
+  }
+  body #page-wrapper #main-wrapper #main #content > section #contactus #block-lianxiwomen {
+    margin-right: 2rem;
   }
   body #page-wrapper #main-wrapper #main #content > section #contactus #block-lianxiwomen > div > div p:nth-child(1), body #page-wrapper #main-wrapper #main #content > section #contactus #block-lianxiwomen > div > div p:nth-child(2) {
     font-size: 1.5rem;

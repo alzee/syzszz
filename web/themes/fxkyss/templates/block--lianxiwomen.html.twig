@@ -40,8 +40,10 @@
     </span>
 </h2>
 <h5>“以客户为导向”为客户提供最全面的服务；“以服务为核心”为客户量身打造一流的产品；“以质量为重心”全方位满足客户的需求。</h5>
+<div class="row">
 {%
   set classes = [
+    'col-auto',
     'block',
     'block-' ~ configuration.provider|clean_class,
     'block-' ~ plugin_id|clean_class,
@@ -59,4 +61,6 @@
     </div>
   {% endblock %}
 </div>
-<div>
+<div id="map" class="col"></div>
+</div>
+</div>
