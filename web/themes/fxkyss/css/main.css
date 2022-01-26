@@ -35,6 +35,29 @@ body #page-wrapper .featured-top > aside #block-views-block-slides-block-1 .cont
     max-width: 1290px;
     margin: auto;
   }
+  body #page-wrapper #main-wrapper #main #content > section > .region > div > .content .view-aboutus .views-row h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+  body #page-wrapper #main-wrapper #main #content > section > .region > div > .content .view-aboutus .views-row h2 .zh {
+    color: #1a58ab;
+  }
+  body #page-wrapper #main-wrapper #main #content > section > .region > div > .content .view-aboutus .views-row h5 {
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  body #page-wrapper #main-wrapper #main #content > section > .region > div > .content .view-aboutus .views-row > div {
+    display: flex;
+  }
+  body #page-wrapper #main-wrapper #main #content > section > .region > div > .content .view-aboutus .views-row > div > div {
+    flex: 1 0 0%;
+  }
+  body #page-wrapper #main-wrapper #main #content > section > .region > div > .content .view-aboutus .views-row > div > div:nth-child(1) {
+    margin-right: 1rem;
+  }
 }
 
 .region.region-primary-menu {
