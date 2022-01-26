@@ -11194,6 +11194,16 @@ body #page-wrapper .featured-top > aside #block-views-block-slides-block-1 .cont
     color: #FFFFFF;
     font-size: 1.2rem;
   }
+  body #page-wrapper #main-wrapper #main #content > section > .region #block-views-block-concept-block-1 .views-row {
+    display: flex;
+  }
+  body #page-wrapper #main-wrapper #main #content > section > .region #block-views-block-concept-block-1 .views-row .views-field {
+    flex: 1 0 0%;
+    margin: 0.8rem;
+  }
+  body #page-wrapper #main-wrapper #main #content > section > .region #block-views-block-concept-block-1 .views-row:nth-child(2) {
+    flex-direction: row-reverse;
+  }
 }
 
 .region.region-primary-menu {
