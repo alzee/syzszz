@@ -1,5 +1,11 @@
+$h5-font-size: .7rem;
+$h2-font-size: 1.8rem;
+
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
+
 body{
   a{
+    text-decoration: none;
     border-bottom: none;
     &:hover, &:active, &:focus{
       border-bottom-style: none;
@@ -35,7 +41,6 @@ body{
                     margin: auto;
                     .view-aboutus .views-row{
                       h2{
-                        font-size: 2rem;
                         font-weight: bold;
                         text-align: center;
                         .zh{
@@ -60,6 +65,9 @@ body{
 
                     }
                   }
+                }
+                #block-views-block-slides2-block-1{
+                  background-image: url("../img/bg.png");
                 }
               }
             }
