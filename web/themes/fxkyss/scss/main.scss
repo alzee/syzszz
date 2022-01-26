@@ -191,6 +191,23 @@ body{
                   }
                 }
               }
+              #contactus{
+                margin-top: 3rem;
+                padding: 2rem 0;
+                background: url("../img/bg3.jpg");
+                #block-lianxiwomen{
+                  max-width: 1290px;
+                  margin: auto;
+                  >div >div p{
+                    &:nth-child(1),
+                    &:nth-child(2) {
+                      font-size: 1.5rem;
+                      color: #356fd1;
+                      font-weight: bold;
+                    }
+                  }
+                }
+              }
             }
           }
         }
@@ -325,10 +342,12 @@ header#header{
         p::after{
           content: "扫描关注官方微信";
           display: inline-block;
-          width: 1.2rem;
+          width: 2.2rem;
           padding: 0 .7rem;
-          font-size: .6rem;
+          font-size: .8rem;
           line-height: .8rem;
+          position: relative;
+          top: 46px;
         }
       }
     }
