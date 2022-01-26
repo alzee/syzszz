@@ -1,7 +1,46 @@
 body{
+  a{
+    border-bottom: none;
+    &:hover, &:active, &:focus{
+      border-bottom-style: none;
+    }
+  }
   background: none;
   #page-wrapper{
     margin-top: 1.5rem;
+    .featured-top{
+      padding: 0;
+      border-bottom: none;
+      >aside{
+        max-width: 100%;
+        #block-views-block-slides-block-1{
+          .content{
+            margin-top: 0;
+          }
+        }
+      }
+    }
+    #main-wrapper{
+      @media (min-width: 851px){
+        max-width: 100%;
+        #main{
+          margin-top: 0;
+          #content{
+            >section{
+              padding: 0;
+              >.region{
+                >div{
+                  >.content{
+                    max-width: 1290px;
+                    margin: auto;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 .region.region-primary-menu{
@@ -111,7 +150,7 @@ header#header{
   border-top: none;
   font-size: 1rem;
   .menu-item a{
-    border-bottom: none;
+   // border-bottom: none;
     padding: 0 2rem;
   }
   #block-fxkyss-youqinglianjie{

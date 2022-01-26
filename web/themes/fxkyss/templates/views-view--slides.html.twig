@@ -32,7 +32,7 @@
 #}
 {%
   set classes = [
-    'swiper',
+    'swiper slide1',
     'view',
     'view-' ~ id|clean_class,
     'view-id-' ~ id,
@@ -66,6 +66,9 @@
     <div class="view-content swiper-wrapper">
       {{ rows }}
     </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
   {% elseif empty %}
     <div class="view-empty">
       {{ empty }}
