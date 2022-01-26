@@ -30,19 +30,14 @@
  *
  * @ingroup themeable
  */
-{{dump(fields)}}
+{{ dump(fields) }}
 #}
-
-<div class="text-align-center">
-  <div class="figure">
-    <a href="{{- fields.view_node.content | striptags -}}">
-      {{- fields.field_image.content -}}
-    </a>
+<div>
+  <div>
+    {{- fields.field_image.content -}}
   </div>
   <div>
-      {{- fields.title.content -}}
-  </div>
-  <div>
-      {{- fields.body.content -}}
+    {{- fields.title.content -}}
+    {{- fields.body.content -}}
   </div>
 </div>
