@@ -588,3 +588,24 @@ header#header{
     display: flex;
   }
 }
+
+form#user-login-form{
+    label {
+        width: 4rem;
+    }
+
+    .description {
+        display: none;
+    }
+
+    #edit-submit {
+        border-radius: .2em;
+        background: #fff;
+        color: #0d6efd;
+        border: 1px solid #0d6efd;
+        &:hover{
+            background: #0d6efd;
+            color: #fff;
+        }
+    }
+}
