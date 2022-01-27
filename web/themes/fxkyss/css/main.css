@@ -11118,8 +11118,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (min-width: 851px) {
+  body.path-frontpage #main-wrapper {
+    max-width: 100%;
+  }
+}
+
 body {
   background: none;
+}
+body .featured-top {
+  text-shadow: none;
 }
 body a {
   color: #000;
@@ -11347,35 +11356,80 @@ header#header > div .region-header {
   margin: auto;
 }
 header#header > div .region-secondary-menu {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 1.5rem;
+  display: none;
+}
+@media (min-width: 901px) {
+  header#header > div .region-secondary-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
 }
 header#header > div .region-header {
   display: flex;
   color: #000000;
 }
 header#header > div .region-header #block-fxkyss-branding {
-  flex: 0 0 auto;
   margin-right: auto;
+}
+header#header > div .region-header #block-fxkyss-branding .site-branding__logo {
+  width: 48px;
+}
+@media (min-width: 901px) {
+  header#header > div .region-header #block-fxkyss-branding .site-branding__logo {
+    width: 92px;
+  }
 }
 header#header > div .region-header #block-fxkyss-branding .site-branding__text .site-branding__name a {
   color: #000000;
-  font-size: 1.8rem;
+  font-size: 1rem;
   font-weight: bold;
 }
+@media (min-width: 901px) {
+  header#header > div .region-header #block-fxkyss-branding .site-branding__text .site-branding__name a {
+    font-size: 1.8rem;
+  }
+}
 header#header > div .region-header #block-fxkyss-branding .site-branding__text .site-branding__slogan {
+  font-size: 0.5rem;
   color: #000000;
 }
-header#header > div .region-header #block-fxkyss-saomaguanzhu-2 .content > div {
-  display: flex;
+@media (min-width: 901px) {
+  header#header > div .region-header #block-fxkyss-branding .site-branding__text .site-branding__slogan {
+    font-size: 1rem;
+  }
 }
-header#header > div .region-header #block-fxkyss-saomaguanzhu-2 .content > div img {
-  width: 80px;
-  margin-right: 2rem;
+header#header > div .region-header #block-fxkyss-saomaguanzhu-2 {
+  display: none;
+}
+@media (min-width: 901px) {
+  header#header > div .region-header #block-fxkyss-saomaguanzhu-2 {
+    display: block;
+  }
+  header#header > div .region-header #block-fxkyss-saomaguanzhu-2 .content > div {
+    display: flex;
+  }
+  header#header > div .region-header #block-fxkyss-saomaguanzhu-2 .content > div img {
+    width: 80px;
+    margin-right: 2rem;
+  }
 }
 header#header > div .region-header #icon-phone {
-  padding: 1.7rem 0.5rem 0 0;
+  display: none;
+  padding: 1.2rem 0.5rem 0 0;
+}
+@media (min-width: 901px) {
+  header#header > div .region-header #icon-phone {
+    display: block;
+  }
+}
+header#header > div .region-header #block-fxkyss-zixundianhua {
+  display: none;
+}
+@media (min-width: 901px) {
+  header#header > div .region-header #block-fxkyss-zixundianhua {
+    display: block;
+  }
 }
 header#header > div .region-header #block-fxkyss-zixundianhua h2, header#header > div .region-header #block-fxkyss-zixundianhua .h2 {
   position: unset !important;

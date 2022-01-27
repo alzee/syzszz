@@ -3,7 +3,17 @@ $h2-font-size: 1.8rem;
 
 @import "../../../../node_modules/bootstrap/scss/bootstrap";
 
+body.path-frontpage{
+  #main-wrapper{
+    @media (min-width: 851px){
+      max-width: 100%;
+    }
+  }
+}
 body{
+  .featured-top{
+    text-shadow: none;
+  }
   a{
     color: #000;
     text-decoration: none;
@@ -29,7 +39,6 @@ body{
     }
     #main-wrapper{
       @media (min-width: 851px){
-        //max-width: 100%;
         #main{
           margin: 0;
           #content{
@@ -176,6 +185,16 @@ body{
                       >div{
                         margin-bottom: 1rem;
                       }
+                      .views-field-body{
+                        .field-content{
+                          p{
+                            //height: 110px;
+                            //overflow: hidden;
+                            //text-overflow: ellipsis;
+                            //white-space: nowrap;
+                          }
+                        }
+                      }
                       >div:nth-child(4){
                         span{
                           color: #8a8a8a;
@@ -270,44 +289,71 @@ header#header{
       margin: auto;
     }
     .region-secondary-menu{
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 1.5rem;
+      display: none;
+      @media (min-width: 901px){
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1.5rem;
+      }
     }
     .region-header{
       display: flex;
       color: #000000;
       #block-fxkyss-branding{
-        flex: 0 0 auto;
         margin-right: auto;
+        .site-branding__logo{
+          width: 48px;
+          @media (min-width: 901px){
+            width: 92px;
+          }
+        }
         .site-branding__text{
           .site-branding__name{
             a{
               color: #000000;
-              font-size: 1.8rem;
+              font-size: 1rem;
               font-weight: bold;
+              @media (min-width: 901px){
+                font-size: 1.8rem;
+              }
             }
           }
           .site-branding__slogan{
+            font-size: .5rem;
+            @media (min-width: 901px){
+              font-size: 1rem;
+            }
             color: #000000;
           }
         }
       }
       #block-fxkyss-saomaguanzhu-2{
-        .content{
-          >div{
-            display: flex;
-            img{
-              width: 80px;
-              margin-right: 2rem;
+        display: none;
+        @media (min-width: 901px){
+          display: block;
+          .content{
+            >div{
+              display: flex;
+              img{
+                width: 80px;
+                margin-right: 2rem;
+              }
             }
           }
         }
       }
       #icon-phone{
-        padding: 1.7rem .5rem 0 0;
+        display: none;
+        padding: 1.2rem .5rem 0 0;
+        @media (min-width: 901px){
+          display: block;
+        }
       }
       #block-fxkyss-zixundianhua{
+        display: none;
+        @media (min-width: 901px){
+          display: block;
+        }
         h2{
           position: unset !important;
           height: unset;
