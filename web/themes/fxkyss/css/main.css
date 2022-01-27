@@ -11684,4 +11684,21 @@ header#header > div .region-header #block-fxkyss-zixundianhua .content > div p {
   }
 }
 
+form#user-login-form label {
+  width: 4rem;
+}
+form#user-login-form .description {
+  display: none;
+}
+form#user-login-form #edit-submit {
+  border-radius: 0.2em;
+  background: #fff;
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+}
+form#user-login-form #edit-submit:hover {
+  background: #0d6efd;
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
