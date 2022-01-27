@@ -11429,21 +11429,43 @@ header#header > div .region-header #block-fxkyss-zixundianhua .content > div p {
 #sidebar-first .block {
   background-color: unset;
   border: none;
+  padding: 0;
 }
-.path-node #page-wrapper #main-wrapper {
+#sidebar-first .navigation ul.menu {
+  padding: 0;
+}
+#sidebar-first .navigation ul.menu li {
+  padding: 0.6rem 1rem;
+  background: #e2e2e2;
+  margin-bottom: 0.4rem;
+}
+#sidebar-first .navigation ul.menu li:hover, #sidebar-first .navigation ul.menu li.menu-item--active-trail {
+  background: #1a58ab;
+}
+#sidebar-first .navigation ul.menu li:hover a, #sidebar-first .navigation ul.menu li.menu-item--active-trail a {
+  color: #fff;
+}
+#sidebar-first #block-lianxiwomenbianlan img {
+  width: 100%;
+}
+
+.layout-sidebar-first #page-wrapper #main-wrapper {
   margin-bottom: 2rem;
 }
-.path-node #page-wrapper #main-wrapper #main #content section .region .content {
+.layout-sidebar-first #page-wrapper #main-wrapper #main #content {
+  padding: 0 3rem;
+}
+.layout-sidebar-first #page-wrapper #main-wrapper #main #content section .region .content {
   padding: 1rem 0;
 }
-.path-node #page-wrapper #main-wrapper #main #content section .region #block-fxkyss-breadcrumbs .content {
+.layout-sidebar-first #page-wrapper #main-wrapper #main #content section .region #block-fxkyss-breadcrumbs .content {
   padding: 2rem 0;
 }
-.path-node #page-wrapper #main-wrapper .field--name-field-image {
+.layout-sidebar-first #page-wrapper #main-wrapper .field--name-field-image {
   width: 100%;
   text-align: center;
 }
-.path-node #page-wrapper #map {
+.layout-sidebar-first #page-wrapper #map {
   height: 500px;
 }
 
@@ -11466,11 +11488,27 @@ header#header > div .region-header #block-fxkyss-zixundianhua .content > div p {
   height: 220px;
 }
 
-.view-xinwenzixun .view-content .views-row {
+.view-xinwenzixun .view-content .views-row,
+.view-taxonomy-term .view-content .views-row {
   display: flex;
   justify-content: space-between;
   padding: 1.2rem 0;
   border-bottom: dashed 1px #cacaca;
+}
+
+#block-yemianbiaoti-2 {
+  background: url("../img/navbg.png");
+}
+#block-yemianbiaoti-2 .content {
+  padding: 2rem;
+}
+#block-yemianbiaoti-2 .content h1, #block-yemianbiaoti-2 .content .h1 {
+  position: relative;
+  top: 1.5rem;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 /*# sourceMappingURL=main.css.map */

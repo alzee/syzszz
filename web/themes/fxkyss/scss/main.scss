@@ -370,20 +370,44 @@ header#header{
   .block{
     background-color: unset;
     border: none;
+    padding: 0;
+  }
+  .navigation{
+    ul.menu{
+      padding: 0;
+      li{
+        padding: .6rem 1rem;
+        background: #e2e2e2;
+        margin-bottom: .4rem;
+        &:hover,
+        &.menu-item--active-trail{
+          background: #1a58ab;
+          a{
+            color: #fff;
+          }
+        }
+      }
+    }
   }
   #block-lianxiwomenbianlan{
+    img{
+      width: 100%;
+    }
   }
 }
-.path-node #page-wrapper{
+.layout-sidebar-first #page-wrapper{
   #main-wrapper{
     margin-bottom: 2rem;
-    #main #content section .region {
-      .content{
-        padding: 1rem 0;
-      }
-      #block-fxkyss-breadcrumbs{
+    #main #content{
+      padding: 0 3rem;
+      section .region {
         .content{
-          padding: 2rem 0;
+          padding: 1rem 0;
+        }
+        #block-fxkyss-breadcrumbs{
+          .content{
+            padding: 2rem 0;
+          }
         }
       }
     }
@@ -416,7 +440,8 @@ header#header{
     }
   }
 }
-.view-xinwenzixun{
+.view-xinwenzixun,
+.view-taxonomy-term{
   .view-content{
     .views-row{
       display: flex;
@@ -426,5 +451,17 @@ header#header{
     }
   }
 }
-#block-yemianbiaoti{
+#block-yemianbiaoti-2{
+  background: url("../img/navbg.png");
+  .content{
+    padding: 2rem;
+    h1{
+      position: relative;
+      top: 1.5rem;
+      color: #fff;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
 }
