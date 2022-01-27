@@ -5,6 +5,7 @@ $h2-font-size: 1.8rem;
 
 body{
   a{
+    color: #000;
     text-decoration: none;
     border-bottom: none;
     &:hover, &:active, &:focus{
@@ -28,7 +29,7 @@ body{
     }
     #main-wrapper{
       @media (min-width: 851px){
-        max-width: 100%;
+        //max-width: 100%;
         #main{
           margin: 0;
           #content{
@@ -224,6 +225,9 @@ body{
   background-color: #1a58ab;
   ul.menu{
     li{
+      &.menu-item.menu-item--active-trail {
+        background: #0c4189;
+      }
       a{
         background: none;
         color: #FFFFFF;
@@ -359,6 +363,68 @@ header#header{
   }
 }
 
-#main-content{
-
+.block-page-title-block{
+  text-align: center;
+}
+#sidebar-first{
+  .block{
+    background-color: unset;
+    border: none;
+  }
+  #block-lianxiwomenbianlan{
+  }
+}
+.path-node #page-wrapper{
+  #main-wrapper{
+    margin-bottom: 2rem;
+    #main #content section .region {
+      .content{
+        padding: 1rem 0;
+      }
+      #block-fxkyss-breadcrumbs{
+        .content{
+          padding: 2rem 0;
+        }
+      }
+    }
+    .field--name-field-image{
+      width: 100%;
+      text-align: center;
+    }
+  }
+  #map{
+    height: 500px;
+  }
+}
+.view-chanpin{
+  .view-content{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 2rem;
+    .views-row{
+      flex: 0 0 auto;
+      width: 33.33333%;
+      a{
+        display: block;
+        margin: 1rem 0;
+        img{
+          width: 220px;
+          height: 220px;
+        }
+      }
+    }
+  }
+}
+.view-xinwenzixun{
+  .view-content{
+    .views-row{
+      display: flex;
+      justify-content: space-between;
+      padding: 1.2rem 0;
+      border-bottom: dashed 1px #cacaca;
+    }
+  }
+}
+#block-yemianbiaoti{
 }

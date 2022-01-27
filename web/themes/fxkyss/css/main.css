@@ -11122,6 +11122,7 @@ body {
   background: none;
 }
 body a {
+  color: #000;
   text-decoration: none;
   border-bottom: none;
 }
@@ -11142,9 +11143,6 @@ body #page-wrapper .featured-top > aside #block-views-block-slides-block-1 .cont
   margin-top: 0;
 }
 @media (min-width: 851px) {
-  body #page-wrapper #main-wrapper {
-    max-width: 100%;
-  }
   body #page-wrapper #main-wrapper #main {
     margin: 0;
   }
@@ -11308,6 +11306,9 @@ body #page-wrapper .featured-top > aside #block-views-block-slides-block-1 .cont
 .region.region-primary-menu {
   background-color: #1a58ab;
 }
+.region.region-primary-menu ul.menu li.menu-item.menu-item--active-trail {
+  background: #0c4189;
+}
 .region.region-primary-menu ul.menu li a {
   background: none;
   color: #FFFFFF;
@@ -11419,6 +11420,57 @@ header#header > div .region-header #block-fxkyss-zixundianhua .content > div p {
   line-height: 0.8rem;
   position: relative;
   top: 46px;
+}
+
+.block-page-title-block {
+  text-align: center;
+}
+
+#sidebar-first .block {
+  background-color: unset;
+  border: none;
+}
+.path-node #page-wrapper #main-wrapper {
+  margin-bottom: 2rem;
+}
+.path-node #page-wrapper #main-wrapper #main #content section .region .content {
+  padding: 1rem 0;
+}
+.path-node #page-wrapper #main-wrapper #main #content section .region #block-fxkyss-breadcrumbs .content {
+  padding: 2rem 0;
+}
+.path-node #page-wrapper #main-wrapper .field--name-field-image {
+  width: 100%;
+  text-align: center;
+}
+.path-node #page-wrapper #map {
+  height: 500px;
+}
+
+.view-chanpin .view-content {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.view-chanpin .view-content .views-row {
+  flex: 0 0 auto;
+  width: 33.33333%;
+}
+.view-chanpin .view-content .views-row a {
+  display: block;
+  margin: 1rem 0;
+}
+.view-chanpin .view-content .views-row a img {
+  width: 220px;
+  height: 220px;
+}
+
+.view-xinwenzixun .view-content .views-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 0;
+  border-bottom: dashed 1px #cacaca;
 }
 
 /*# sourceMappingURL=main.css.map */
