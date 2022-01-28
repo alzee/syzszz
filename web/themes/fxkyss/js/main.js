@@ -1,5 +1,5 @@
 if(document.querySelector('#map')){
-    let coord = [110.749676, 32.070696];
+    let coord = [110.897566, 32.613488];
 
     let map = new AMap.Map('map', {
         resizeEnable: true,
@@ -19,7 +19,7 @@ if(document.querySelector('#map')){
     function showInfoWindow(coord) {
         let infoWindow = new AMap.InfoWindow({
             anchor: 'top-left',
-            content: '房县开源砂石料经营有限公司',
+            content: '十堰市再生资源有限公司',
         });
         infoWindow.open(map, coord);
     }
